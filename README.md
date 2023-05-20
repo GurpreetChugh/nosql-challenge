@@ -47,7 +47,7 @@ Some notes to be aware of while you are exploring the dataset:
 
 * `RatingValue` refers to the overall rating decided by the Food Authority and ranges from 1-5. The higher the value, the better
    the rating.
-- **Note**: This field also includes non-numeric values such as 'Pass', where 'Pass' means that the establishment passed   
+    - **Note**: This field also includes non-numeric values such as 'Pass', where 'Pass' means that the establishment passed   
         the inspection but isn't given a number rating. We will coerce non-numeric values to nulls during the database setup 
         before converting ratings to integers.
 * The scores for `Hygiene`, `Structural`, and `ConfidenceInManagement` work in reverse. This means, the higher the value, the 
